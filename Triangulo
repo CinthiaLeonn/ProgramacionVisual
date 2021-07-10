@@ -6,7 +6,7 @@ Class Triangulo {
     private $altura;
 
     // Funcion Constructora
-        Function Triangulo () {
+        function Triangulo () {
         $This ->  lado1 = 0;
         $This ->  lado2 = 0;
         $This ->  base = 0;
@@ -44,11 +44,11 @@ Class Triangulo {
         return $ html;   
 }
 
-public Function area ($ base, $ altura) {
+public function area ($ base, $ altura) {
      área = ($base * $altura) / 2;
     return $ area;
 }
-public Function perimetro ($ lado1, $ lado2, $ base) {
+public function perimetro ($ lado1, $ lado2, $ base) {
     $ perimetro = $lado1 + $lado2 + $base;
     return $perimetro;
 }
